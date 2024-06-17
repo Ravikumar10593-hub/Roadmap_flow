@@ -206,31 +206,37 @@ Streamlit Configuration:
 Layout:
 
 - The page is divided into two columns with a ratio of 3:1.
+  
 Node Definitions:
 
 - Nodes are defined to represent various categories and tools within data science.
 - Categories include “Collection”, “Cleaning”, “EDA”, “Model Building”, and “Model Deployment”.
 - Tools such as “Scrapy”, “Pandas”, “Scikit-learn”, and “Docker” are included under their respective categories.
 - Each node has an ID, label, and color.
+  
 Edge Definitions:
 
 - Edges are created to connect the “Data Science Tools” node to the various category nodes.
 - Each category node is connected to its respective tools.
+  
 Graph Configuration:
 
 - The graph is set to be directed and has node highlight behavior enabled.
 - The hierarchical layout is enabled, with nodes arranged from top to bottom.
 - Graph dimensions and zoom are set.
+  
 Resource Links:
 
 - A dictionary named resources is defined to map tools to their respective resource links.
 - Each tool has a list of related links.
+  
 Graph Display and Interaction:
 
 - The graph is displayed using agraph with the specified nodes, edges, and configuration.
 - A sidebar is created to display resources for a clicked node.
 - If a node is clicked, relevant resource links are shown in the sidebar.
 - If no node is clicked, a default message is displayed in the sidebar.
+  
 ![image](https://github.com/Ravikumar10593-hub/Roadmap_flow/assets/65507584/46c98653-bcba-459e-b7bd-4bc934abdba6)
 
 ### Future improvement
